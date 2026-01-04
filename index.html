@@ -1,0 +1,43 @@
+<!-- 
+Level-1
+    JavaScript
+    Task 2
+         2.2 Create an alert box that displays a greeting message based on 
+         the current time using JavaScript
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Alert | JavaScript Task 2.2</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Greeting Alert System</h1>
+        <p class="subtitle">
+            Displays a greeting message based on the current time using JavaScript
+        </p>
+
+        <div class="datetime">
+            <p id="date"></p>
+            <p id="time"></p>
+        </div>
+
+        <button id="greetBtn">Show Greeting</button>
+    </div>
+
+    <!-- Custom Alert Box -->
+    <div class="alert-overlay" id="alertBox">
+        <div class="alert-box">
+            <h2 id="alertGreeting"></h2>
+            <p id="alertMessage"></p>
+            <button onclick="closeAlert()">Close</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
